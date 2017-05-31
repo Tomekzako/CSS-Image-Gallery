@@ -5,5 +5,24 @@
 }
 
 body {
-    background: blue;
+    font-family: 'Arial', sans-serif;
+    background: #f5f3ef;
+    line-height: 1.5em;
+    color: #666;
+}
+
+a{
+    color: #1f2c36;
+    text-decoration: none;
+}
+
+ul,li{
+    list-style: none;
+}
+
+header{
+    height: 130px;
+    background: #1f2c36;
+    color: #fff;
+    margin-bottom: 20px;
 }
