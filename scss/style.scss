@@ -80,3 +80,21 @@ footer {
     text-align: center;
     padding-top: 10px;
 }
+
+@media(max-width: 960px) {
+    .container {
+        width: 95%;
+    }
+    section,
+    nav {
+        float: none;
+        width: 100%;
+    }
+    section {
+        .gallery {
+            img {
+                width: 49%;
+            }
+        }
+    }
+}
