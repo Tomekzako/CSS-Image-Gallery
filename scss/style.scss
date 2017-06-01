@@ -11,34 +11,72 @@ body {
     color: #666;
 }
 
-.container{
+.container {
     width: 80%;
     max-width: 960px;
     margin: auto;
 }
 
-a{
+a {
     color: #1f2c36;
     text-decoration: none;
 }
 
-ul,li{
+ul,
+li {
     list-style: none;
 }
 
-header{
+header {
     height: 130px;
     background: #1f2c36;
     color: #fff;
     margin-bottom: 20px;
-    img{
+    img {
         padding-top: 20px;
     }
 }
 
-section{
+section {
     float: right;
     width: 80%;
     padding: 20px;
+    .gallery {
+        img {
+            width: 23%;
+            opacity: 1;
+            transition: all 1s;
+            &:hover {
+                background: #fff;
+                opacity: 0.5;
+                transition: all 1s;
+            }
+        }
+    }
 }
 
+nav {
+    float: left;
+    width: 20%;
+    padding: 20px;
+    a {
+        line-height: 2.2em;
+        padding: 10px 20px;
+        &:active {
+            background: #1f2c36;
+            color: #fff;
+        }
+        &:hover {
+            background: #ccc;
+        }
+    }
+}
+
+footer {
+    clear: both;
+    height: 40px;
+    background: #1f2c36;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
