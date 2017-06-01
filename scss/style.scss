@@ -11,6 +11,12 @@ body {
     color: #666;
 }
 
+.container{
+    width: 80%;
+    max-width: 960px;
+    margin: auto;
+}
+
 a{
     color: #1f2c36;
     text-decoration: none;
@@ -25,4 +31,14 @@ header{
     background: #1f2c36;
     color: #fff;
     margin-bottom: 20px;
+    img{
+        padding-top: 20px;
+    }
 }
+
+section{
+    float: right;
+    width: 80%;
+    padding: 20px;
+}
+
