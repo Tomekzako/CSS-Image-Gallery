@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Image Gallery</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 </head>
 
 <body>
@@ -15,12 +16,12 @@
         </header>
         <section>
             <div class="gallery">
-                <img src="images/image1.jpg">
-                <img src="images/image2.jpg">
-                <img src="images/image3.jpg">
-                <img src="images/image4.jpg">
-                <img src="images/image5.jpg">
-                <img src="images/image6.jpg">
+                <a href="images/image1.jpg" data-caption="czesc" data-fancybox="image"><img src="images/image1.jpg" alt="img1"></a>
+                <a href="images/image2.jpg" data-caption="czesc" data-fancybox="image"><img src="images/image2.jpg" alt="img2"></a>
+                <a href="images/image3.jpg" data-caption="czesc" data-fancybox="image"><img src="images/image3.jpg" alt="img3"></a>
+                <a href="images/image4.jpg" data-caption="czesc" data-fancybox="image"><img src="images/image4.jpg" alt="img4"></a>
+                <a href="images/image5.jpg" data-caption="czesc" data-fancybox="image"><img src="images/image5.jpg" alt="img5"></a>
+                <a href="images/image6.jpg" data-caption="czesc" data-fancybox="image"><img src="images/image6.jpg" alt="img6"></a>
             </div>
         </section>
         <nav>
@@ -32,6 +33,14 @@
             <p>Copyright &copy; 2014</p>
         </footer>
     </div>
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <script>
+        $(document).ready(function() {
+
+        });
+    </script>
 </body>
 
 </html>

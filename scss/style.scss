@@ -41,8 +41,7 @@ section {
     float: right;
     width: 80%;
     padding: 20px;
-    .gallery {
-        img {
+    .gallery img {
             width: 23%;
             opacity: 1;
             transition: all 1s;
@@ -52,7 +51,6 @@ section {
                 transition: all 1s;
             }
         }
-    }
 }
 
 nav {
@@ -91,10 +89,8 @@ footer {
         width: 100%;
     }
     section {
-        .gallery {
-            img {
+        .gallery img {
                 width: 49%;
             }
-        }
     }
 }
