@@ -45,7 +45,6 @@ section {
         width: 31%;
         opacity: 1;
         transition: all 1s;
-        height: 120px;
         &:hover {
             background: #fff;
             opacity: 0.5;
@@ -93,5 +92,13 @@ footer {
         .gallery img {
             width: 49%;
         }
+    }
+}
+
+@media(max-width: 601px) {
+    header img {
+        width: 90%;
+        margin: auto;
+        display: block;
     }
 }
