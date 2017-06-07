@@ -9,16 +9,13 @@ $(function () {
             console.log($filter);
             $filter == 'all' ?
                 $('.fancybox')
-                .attr('data-fancybox', 'image')
-                .fadeIn() 
-            :
+                .fadeIn() :
                 $('.fancybox')
                 .fadeOut(0)
                 .filter(function () {
                     return $(this).data('filter') == $filter;
                 })
-                .attr('data-fancybox', $filter)
-                .fadeIn(1000);
+                .fadeIn();
         }
     });
 
